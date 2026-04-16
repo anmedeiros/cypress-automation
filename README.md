@@ -90,7 +90,7 @@ npx cypress open
 
 ## 📸 Demonstração
 
-👉 <img width="1263" height="1023" alt="image" src="https://github.com/user-attachments/assets/6e29e6ee-11be-4548-a884-cf84445c3614" />
+ <img width="1263" height="1023" alt="image" src="https://github.com/user-attachments/assets/6e29e6ee-11be-4548-a884-cf84445c3614" />
 
 
 ---
