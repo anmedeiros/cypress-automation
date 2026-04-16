@@ -1,11 +1,6 @@
-# 🚀 Cypress Automation - E2E Tests
+# 🚀 Cypress Automation Project
 
-## 📌 Sobre o Projeto
-
-Este projeto foi desenvolvido para praticar automação de testes end-to-end utilizando o Cypress.
-
-Os testes simulam o comportamento real de um usuário no site SauceDemo, validando funcionalidades essenciais como login e manipulação do carrinho de compras.
-
+Este repositório contém um projeto de automação de testes End-to-End (E2E) desenvolvido com **Cypress**. O objetivo é garantir a qualidade e o funcionamento das principais funcionalidades do sistema.
 ---
 
 ## 🧪 Cenários Automatizados
@@ -26,8 +21,10 @@ Os testes simulam o comportamento real de um usuário no site SauceDemo, validan
 
 ## 🛠️ Tecnologias Utilizadas
 
-* JavaScript
-* Cypress
+* **Cypress**: Framework de automação de testes.
+* **JavaScript**: Linguagem de programação utilizada nos scripts.
+* **Page Objects**: Padrão de projeto utilizado para melhorar a manutenção e organização do código.
+* **Intercept & Mocking**: Estratégias para monitorar e manipular chamadas de API durante os testes.
 
 ---
 
@@ -60,33 +57,15 @@ cypress/
 
 ---
 
-## ▶️ Como Executar o Projeto
+## 🚀 Como Executar o Projeto
 
-### 1. Clonar o repositório
+### Pré-requisitos
+Antes de começar, você precisará ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
 
-```bash
-git clone https://github.com/anmedeiros/cypress-automation.git
-```
-
-### 2. Acessar a pasta
-
-```bash
-cd cypress-automation
-```
-
-### 3. Instalar dependências
-
+### Passo 1: Instalar as dependências
+No terminal, dentro da pasta do projeto, execute:
 ```bash
 npm install
-```
-
-### 4. Executar os testes
-
-```bash
-npx cypress open
-```
-
----
 
 ## 📸 Demonstração
 
