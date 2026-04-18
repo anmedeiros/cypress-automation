@@ -1,11 +1,11 @@
 ![Cypress](https://img.shields.io/badge/Cypress-Testing-green)
 ![Status](https://img.shields.io/badge/Status-Concluído-success)
 ![GitHub repo size](https://img.shields.io/github/repo-size/anmedeiros/cypress-automation)
-# 🚀 Cypress Automation Portfolio
+# 🚀 Cypress Automation | Testes E2E
 
 ## 📊 Objetivo
 
-Demonstrar conhecimento prático em automação de testes E2E utilizando Cypress, com foco em organização, reutilização de código e boas práticas adotadas no mercado.
+Projeto de automação de testes End-to-End (E2E) utilizando Cypress, com foco em boas práticas aplicadas no mercado de QA.
 
 A automação foi construída sobre o site SauceDemo, simulando fluxos reais de usuário como login, manipulação de produtos e validação de carrinho.
 
@@ -36,6 +36,13 @@ A automação foi construída sobre o site SauceDemo, simulando fluxos reais de 
 - Fixtures (dados externos)
 - Organização por domínio (login, produtos, carrinho)
 - Testes independentes
+
+---
+## 💡 Diferenciais
+
+- Organização por domínio (login, produtos, carrinho)
+- Reutilização com commands customizados
+- Uso de dados externos com fixtures
 
 ---
 
