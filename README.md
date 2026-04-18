@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/anmedeiros/cypress-automation)
 # 🚀 Cypress Automation | Testes E2E
 
-## 📊 Objetivo
+## 📌 Sobre o projeto
 
 Projeto de automação de testes End-to-End (E2E) utilizando Cypress, com foco em boas práticas aplicadas no mercado de QA.
 
@@ -46,13 +46,6 @@ A automação foi construída sobre o site SauceDemo, simulando fluxos reais de 
 
 ---
 
-## ⚠️ Observação
-
-O sistema utilizado (SauceDemo) não possui API real para listagem de produtos.  
-Por esse motivo, as validações foram realizadas via interface (UI), e o uso de intercept foi aplicado apenas para fins de aprendizado.
-
----
-
 ## 📸 Execução dos testes
 
 Exemplo da execução dos testes automatizados no Cypress:
@@ -61,6 +54,12 @@ Exemplo da execução dos testes automatizados no Cypress:
 
 ---
 
+## ⚠️ Observação
+
+O sistema utilizado (SauceDemo) não possui API real para listagem de produtos.  
+Por esse motivo, as validações foram realizadas via interface (UI), e o uso de intercept foi aplicado apenas para fins de aprendizado.
+
+---
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -75,3 +74,27 @@ Exemplo da execução dos testes automatizados no Cypress:
 1. Clonar o repositório:
 ```bash
 git clone https://github.com/anmedeiros/cypress-automation.git
+
+2. Instalar dependências:
+npm install
+
+3. Executar o Cypress:
+npx cypress open
+---
+
+## 💡 Diferenciais
+
+- Organização por domínio (login, produtos, carrinho)
+- Reutilização com commands customizados
+- Uso de dados externos com fixtures
+
+---
+
+📊 Objetivo
+
+Demonstrar conhecimento prático em automação de testes E2E utilizando Cypress, com foco em organização, reutilização de código e boas práticas adotadas no mercado.
+
+---
+## 👨‍💻 Autor
+
+Projeto desenvolvido por Ananias Medeiros
