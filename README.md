@@ -46,6 +46,15 @@ Por esse motivo, as validações foram realizadas via interface (UI), e o uso de
 
 ---
 
+## 📸 Execução dos testes
+
+Exemplo da execução dos testes automatizados no Cypress:
+
+<img width="1917" height="1017" alt="Execução Cypress" src="https://github.com/user-attachments/assets/3ae68e7a-be69-48c8-9531-126f17bfca7b" />
+
+---
+
+
 ## 🛠️ Tecnologias utilizadas
 
 - Cypress
