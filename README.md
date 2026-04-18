@@ -1,3 +1,4 @@
+[![Cypress](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
 # 🚀 Cypress Automation Portfolio
 
 ## 📌 Sobre o projeto
