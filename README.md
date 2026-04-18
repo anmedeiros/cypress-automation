@@ -1,4 +1,6 @@
-[![Cypress](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
+![Cypress](https://img.shields.io/badge/Cypress-Testing-green)
+![Status](https://img.shields.io/badge/Status-Concluído-success)
+![GitHub repo size](https://img.shields.io/github/repo-size/anmedeiros/cypress-automation)
 # 🚀 Cypress Automation Portfolio
 
 ## 📌 Sobre o projeto
