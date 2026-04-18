@@ -1,85 +1,57 @@
-# 🚀 Cypress Automation Project
+# 🚀 Cypress Automation Portfolio
 
-Este repositório contém um projeto de automação de testes End-to-End (E2E) desenvolvido com **Cypress**. O objetivo é garantir a qualidade e o funcionamento das principais funcionalidades do sistema.
+## 📌 Sobre o projeto
+Este projeto tem como objetivo demonstrar automação de testes End-to-End (E2E) utilizando Cypress, aplicando boas práticas utilizadas no mercado.
+
+A automação foi construída sobre o site SauceDemo, simulando fluxos reais de usuário como login, manipulação de produtos e validação de carrinho.
+
 ---
 
-## 🧪 Cenários Automatizados
+## 🧪 Cenários automatizados
 
 ### 🔐 Login
-
-* ✅ Login com sucesso
-* ❌ Login inválido
-* 🔒 Usuário bloqueado
+- Login com credenciais válidas
+- Login com credenciais inválidas
+- Validação de mensagem de erro
 
 ### 🛒 Produtos
+- Adicionar produto ao carrinho
+- Remover produto do carrinho
+- Validação da quantidade no carrinho
 
-* ➕ Adicionar produto ao carrinho
-* ➖ Remover produto do carrinho
-* ✔️ Validação de itens exibidos na tela
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-* **Cypress**: Framework de automação de testes.
-* **JavaScript**: Linguagem de programação utilizada nos scripts.
-* **Page Objects**: Padrão de projeto utilizado para melhorar a manutenção e organização do código.
-* **Intercept & Mocking**: Estratégias para monitorar e manipular chamadas de API durante os testes.
+### 🛍️ Carrinho
+- Acessar carrinho com produto
+- Validar carrinho vazio
 
 ---
 
-## 📂 Estrutura do Projeto
+## 🧠 Boas práticas aplicadas
 
+- Page Object Model (POM)
+- Custom Commands (reutilização de código)
+- Fixtures (dados externos)
+- Organização por domínio (login, produtos, carrinho)
+- Testes independentes
+
+---
+
+## ⚠️ Observação
+
+O sistema utilizado (SauceDemo) não possui API real para listagem de produtos.  
+Por esse motivo, as validações foram realizadas via interface (UI), e o uso de intercept foi aplicado apenas para fins de aprendizado.
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- Cypress
+- JavaScript
+- Node.js
+
+---
+
+## ▶️ Como executar o projeto
+
+1. Clonar o repositório:
 ```bash
-cypress/
-  e2e/
-    login.cy.js
-    products.cy.js
-  pages/
-    loginPage.js
-    productsPage.js
-  fixtures/
-    login.json
-  support/
-    commands.js
-    e2e.js
-```
-
----
-
-## ⚙️ Boas Práticas Aplicadas
-
-* ✔️ Page Object Model (POM)
-* ✔️ Comandos customizados (`cy.login`)
-* ✔️ Uso de fixtures para dados de teste
-* ✔️ Organização por responsabilidades
-* ✔️ Reutilização de código com `beforeEach`
-
----
-
-## 🚀 Como Executar o Projeto
-
-### Pré-requisitos
-Antes de começar, você precisará ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
-
-### Passo 1: Instalar as dependências
-No terminal, dentro da pasta do projeto, execute:
-```bash
-npm install
-
-## 📸 Demonstração
-
- <img width="1263" height="1023" alt="image" src="https://github.com/user-attachments/assets/6e29e6ee-11be-4548-a884-cf84445c3614" />
-
-
----
-
-## 💡 Objetivo
-
-Este projeto tem como objetivo consolidar conhecimentos em automação de testes e aplicar práticas utilizadas no mercado de QA.
-
----
-
-## 👨‍💻 Autor
-
-Ananias Medeiros
+git clone https://github.com/anmedeiros/cypress-automation.git
