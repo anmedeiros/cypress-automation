@@ -74,16 +74,18 @@ Por esse motivo, as validações foram realizadas via interface (UI), e o uso de
 1. Clonar o repositório:
 ```bash
 git clone https://github.com/anmedeiros/cypress-automation.git
+```md
 
 2. Instalar dependências:
 ```bash
 npm install
+```md
 
 3. Executar o Cypress:
 ```bash
 npx cypress open
-
 ```md
+---
 ## 💡 Diferenciais
 
 - Organização por domínio (login, produtos, carrinho)
