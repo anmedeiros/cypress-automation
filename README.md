@@ -76,9 +76,11 @@ Por esse motivo, as validações foram realizadas via interface (UI), e o uso de
 git clone https://github.com/anmedeiros/cypress-automation.git
 
 2. Instalar dependências:
+```bash
 npm install
 
 3. Executar o Cypress:
+```bash
 npx cypress open
 ---
 
@@ -90,7 +92,7 @@ npx cypress open
 
 ---
 
-📊 Objetivo
+## 📊 Objetivo
 
 Demonstrar conhecimento prático em automação de testes E2E utilizando Cypress, com foco em organização, reutilização de código e boas práticas adotadas no mercado.
 
