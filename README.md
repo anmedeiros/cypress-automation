@@ -3,8 +3,9 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/anmedeiros/cypress-automation)
 # 🚀 Cypress Automation Portfolio
 
-## 📌 Sobre o projeto
-Este projeto tem como objetivo demonstrar automação de testes End-to-End (E2E) utilizando Cypress, aplicando boas práticas utilizadas no mercado.
+## 📊 Objetivo
+
+Demonstrar conhecimento prático em automação de testes E2E utilizando Cypress, com foco em organização, reutilização de código e boas práticas adotadas no mercado.
 
 A automação foi construída sobre o site SauceDemo, simulando fluxos reais de usuário como login, manipulação de produtos e validação de carrinho.
 
