@@ -1,16 +1,18 @@
-describe('Intercept básico', () => {
+describe('Intercept (conceito)', () => {
 
-  it('Só observar requisição', () => {
+  it('Valida carregamento sem API real', () => {
 
-    cy.intercept('GET', '**/inventory*').as('getProdutos')
+    cy.login('standard_user', 'secret_sauce')
 
-    cy.visit('https://www.saucedemo.com/')
-    cy.get('[data-test="username"]').type('standard_user')
-    cy.get('[data-test="password"]').type('secret_sauce')
-    cy.get('[data-test="login-button"]').click()
+    cy.url().should('include', 'inventory')
 
-    cy.wait('@getProdutos')
+    cy.get('.inventory_item').should('be.visible')
 
   })
 
 })
+
+// OBS:
+// O SauceDemo não possui API real para produtos,
+// portanto o intercept não é utilizado como validação principal.
+// A validação é feita via UI.

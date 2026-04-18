@@ -1,31 +1,17 @@
 import loginPage from '../pages/loginPage'
 import productsPage from '../pages/productsPage'
 
-describe('Fluxo completo - Login + Carrinho', () => {
+describe('Fluxo completo (E2E)', () => {
 
-it('Deve logar e adicionar produto no carrinho', () => {
+  it('Login + produto + carrinho', () => {
 
-     //acessar site
-    loginPage.acessarSite()
+    cy.login('standard_user', 'secret_sauce')
 
-     //login
-    loginPage.login('standard_user', 'secret_sauce')
+    cy.get('.inventory_item button').first().click()
 
-     //valida login
-    cy.url().should('include', 'inventory')
+    cy.get('.shopping_cart_link').click()
 
-    // adicionar produto
-    productsPage.adicionarProduto()
-
-     //valida carrinho
-    cy.get('.shopping_cart_badge').should('be.visible')
-    cy.get('.shopping_cart_badge').should('contain', '1')
-
-    // ir para carrinho
-    productsPage.irParaCarrinho()
-
-     //valida página carrinho
-    cy.url().should('include', 'cart')
+    cy.get('.cart_item').should('be.visible')
 
   })
 

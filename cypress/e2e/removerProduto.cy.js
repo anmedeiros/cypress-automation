@@ -1,7 +1,7 @@
 import loginPage from '../pages/loginPage'
 import productsPage from '../pages/productsPage'
 
-describe('Produtos', () => {
+describe('Produtos - Remover', () => {
 
   beforeEach(() => {
     cy.fixture('login').then((dados) => {
@@ -9,13 +9,14 @@ describe('Produtos', () => {
     })
   })
 
-  it('Deve adicionar produto ao carrinho', () => {
+ it('Deve remover produto do carrinho', () => {
 
     cy.addProduto()
 
-    cy.get('.shopping_cart_badge')
-      .should('be.visible')
-      .and('contain', '1')
+    // remove (mesmo botão vira REMOVE)
+    cy.get('.inventory_item button').first().click()
+
+    cy.get('.shopping_cart_badge').should('not.exist')
 
   })
 

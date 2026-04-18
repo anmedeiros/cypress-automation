@@ -32,6 +32,12 @@ Cypress.Commands.add('login', (usuario, senha) => {
   cy.get('[data-test="login-button"]').click()
 })
 
+Cypress.Commands.add('loginPadrao', () => {
+  cy.login('standard_user', 'secret_sauce')
+})
+
 Cypress.Commands.add('addProduto', () => {
   cy.get('.inventory_item button').first().click()
+
+  
 })
