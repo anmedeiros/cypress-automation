@@ -17,18 +17,5 @@ describe('Login válido', () => {
 })
 
 
-//antes
-//describe('Login com Page Object', () => {
 
-  //it('Login com sucesso', () => {
-
-    //loginPage.acessarSite()
-    //loginPage.preencherUsuario('standard_user')
-    //loginPage.preencherSenha('secret_sauce')
-    //loginPage.clicarLogin()
-
-    //cy.get('.title').should('contain', 'Products')
-  //})
-
-//})
 
