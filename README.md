@@ -82,8 +82,8 @@ npm install
 3. Executar o Cypress:
 ```bash
 npx cypress open
----
 
+```md
 ## 💡 Diferenciais
 
 - Organização por domínio (login, produtos, carrinho)
