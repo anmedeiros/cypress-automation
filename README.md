@@ -1,6 +1,7 @@
 ![Cypress](https://img.shields.io/badge/Cypress-Testing-green)
 ![Status](https://img.shields.io/badge/Status-Concluído-success)
 ![GitHub repo size](https://img.shields.io/github/repo-size/anmedeiros/cypress-automation)
+![Cypress Tests](https://github.com/anmedeiros/cypress-automation/actions/workflows/cypress.yml/badge.svg)
 # 🚀 Cypress Automation | Testes E2E
 
 ## 📌 Sobre o projeto
