@@ -8,7 +8,7 @@
 
 Projeto de automação de testes End-to-End (E2E) utilizando Cypress, com foco em boas práticas aplicadas no mercado de QA.
 
-A automação foi construída sobre o site SauceDemo, simulando fluxos reais de usuário como login, manipulação de produtos e validação de carrinho.
+A automação foi construída sobre o site SauceDemo, simulando cenários reais de uso, simulando fluxos reais de usuário como login, manipulação de produtos e validação de carrinho.
 
 ---
 
