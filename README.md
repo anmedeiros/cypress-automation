@@ -41,9 +41,9 @@ A automação foi construída sobre o site SauceDemo, simulando fluxos reais de 
 ---
 ## 💡 Diferenciais
 
-- Organização por domínio (login, produtos, carrinho)
-- Reutilização com commands customizados
-- Uso de dados externos com fixtures
+- Pipeline CI/CD com execução automática
+- Estrutura escalável para novos cenários
+- Projeto alinhado com boas práticas de mercado
 
 ---
 
@@ -67,6 +67,7 @@ Por esse motivo, as validações foram realizadas via interface (UI), e o uso de
 - Cypress
 - JavaScript
 - Node.js
+- GitHub Actions (CI/CD)
 
 ---
 
@@ -86,13 +87,6 @@ npm install
 ```bash
 npx cypress open
 ```
----
-## 💡 Diferenciais
-
-- Organização por domínio (login, produtos, carrinho)
-- Reutilização com commands customizados
-- Uso de dados externos com fixtures
-
 ---
 
 ## 📊 Objetivo
